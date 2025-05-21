@@ -30,5 +30,5 @@ Este projeto é um sistema bancário básico feito em **JavaScript** utilizando 
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com//Brunohsdev/Projeto-POO-de-um-banco-ficticio
+   git clone https://github.com//Brunohsdev/Projeto-POO-de-um-banco-ficticio.git
    cd nome-do-repositorio
