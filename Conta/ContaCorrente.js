@@ -1,4 +1,4 @@
-import { Conta } from "./Conta.js";
+import { Conta } from "./Conta";
 
 export class ContaCorrente extends Conta{
     //atributos
@@ -10,7 +10,7 @@ export class ContaCorrente extends Conta{
     }
     // teste(){
     //     super.teste();
-    //     console.log('teste naclasse conta corrente')
+    //     console.log('teste na classe conta corrente')
     // }
     //sobreescrevendo o comportamneto de sacar
     sacar(valor){

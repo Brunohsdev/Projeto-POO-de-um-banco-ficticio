@@ -4,7 +4,7 @@ export class Conta{
         this._cliente = cliente;
         this._agencia = agencia;
         if(this.constructor == Conta){
-            throw new Error("Você não deveria intanscias um objeto do tipo conta diretamente");
+            throw new Error("Você não deveria intansciar um objeto do tipo conta diretamente, pois essa é uma classe abstrata");
         }
     }
 
@@ -27,9 +27,9 @@ export class Conta{
         
     
         }
+        //metodo abstrado
     sacar(valor){
-        let taxa = 1;
-        return this._sacar(valor, taxa);
+     
        
     }
     _sacar(valor, taxa ){
