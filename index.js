@@ -1,29 +1,15 @@
 import { Cliente } from "./cliente.js";
-import { ContaCorrente } from "./contaCorrente.js";
+import { ContaCorrente } from "./ContaCorrente.js";
+import { Conta } from "./Conta.js";
 
 //colocando os dados
 const PessoaBruno = new Cliente("bruno",3048239584 );
-const ContacorrenteCliente1 = new ContaCorrente(PessoaBruno, 1001 );
-const cliente2 = new Cliente("alice",43839534);
-const conta2 = new ContaCorrente(cliente2, 102);
+const ContacorrenteCliente1 = new ContaCorrente(0, PessoaBruno, 1001 );
 
 
 
+const contapoupanca = new Conta(50, PessoaBruno, 1001);
 
-//aqui testa se está funcionando
-
-// ContacorrenteCliente1.depositar(10000);
-// const valorSacado = ContacorrenteCliente1.sacar(500);
-
-// console.log(valorSacado);
-
-
-
-
-// ContacorrenteCliente1.transferir(500, conta2);
-// console.log(ContacorrenteCliente1);
-// console.log(conta2.saldo);
-// console.log(cliente2.cpf)
-
-
-// console.log(ContaCorrente.numeroDeContas)
+ContacorrenteCliente1.teste();
+// const conta1 = new Conta(0, PessoaBruno, 9002)
+// console.log(Conta)
